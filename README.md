@@ -1,6 +1,7 @@
 
-# Powertop configuration for Linux
+# Intel Broadcast RGB configuration for Linux
 Intel Broadcast RGB service for fixing visual corruption on Intel HD GPUs running Linux.
+
 Issue : https://bugs.freedesktop.org/show_bug.cgi?id=108821
 
 ### Requirements
