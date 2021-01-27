@@ -1,0 +1,14 @@
+# Intel Broadcast RGB Autostart Service
+# /etc/systemd/system/intelrgb.service
+
+[Unit]
+Description=Intel Broadcast RGB Autostart Script
+
+[Service]
+Type=idle
+Environment="TERM=dumb"
+ExecStart=/usr/bin/intelrgb.sh
+
+[Install]
+WantedBy=multi-user.target
+
